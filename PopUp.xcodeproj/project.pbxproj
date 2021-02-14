@@ -13,6 +13,8 @@
 		CA7A8C5125D9A5CD00C484D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8C4F25D9A5CD00C484D8 /* Main.storyboard */; };
 		CA7A8C5325D9A5D100C484D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8C5225D9A5D100C484D8 /* Assets.xcassets */; };
 		CA7A8C5625D9A5D100C484D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8C5425D9A5D100C484D8 /* LaunchScreen.storyboard */; };
+		CA7A8C5F25D9A60E00C484D8 /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA7A8C5E25D9A60E00C484D8 /* PopUpView.xib */; };
+		CA7A8C6225D9A62500C484D8 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A8C6125D9A62500C484D8 /* PopUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA7A8C5225D9A5D100C484D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7A8C5525D9A5D100C484D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA7A8C5725D9A5D100C484D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA7A8C5E25D9A60E00C484D8 /* PopUpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
+		CA7A8C6125D9A62500C484D8 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 		CA7A8C4825D9A5CD00C484D8 /* PopUp */ = {
 			isa = PBXGroup;
 			children = (
+				CA7A8C5E25D9A60E00C484D8 /* PopUpView.xib */,
+				CA7A8C6125D9A62500C484D8 /* PopUpView.swift */,
+				CA7A8C6425D9A62A00C484D8 /* PopUp */,
 				CA7A8C4925D9A5CD00C484D8 /* AppDelegate.swift */,
 				CA7A8C4B25D9A5CD00C484D8 /* SceneDelegate.swift */,
 				CA7A8C4D25D9A5CD00C484D8 /* ViewController.swift */,
@@ -63,6 +70,13 @@
 				CA7A8C5225D9A5D100C484D8 /* Assets.xcassets */,
 				CA7A8C5425D9A5D100C484D8 /* LaunchScreen.storyboard */,
 				CA7A8C5725D9A5D100C484D8 /* Info.plist */,
+			);
+			path = PopUp;
+			sourceTree = "<group>";
+		};
+		CA7A8C6425D9A62A00C484D8 /* PopUp */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = PopUp;
 			sourceTree = "<group>";
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA7A8C5625D9A5D100C484D8 /* LaunchScreen.storyboard in Resources */,
+				CA7A8C5F25D9A60E00C484D8 /* PopUpView.xib in Resources */,
 				CA7A8C5325D9A5D100C484D8 /* Assets.xcassets in Resources */,
 				CA7A8C5125D9A5CD00C484D8 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA7A8C4E25D9A5CD00C484D8 /* ViewController.swift in Sources */,
+				CA7A8C6225D9A62500C484D8 /* PopUpView.swift in Sources */,
 				CA7A8C4A25D9A5CD00C484D8 /* AppDelegate.swift in Sources */,
 				CA7A8C4C25D9A5CD00C484D8 /* SceneDelegate.swift in Sources */,
 			);

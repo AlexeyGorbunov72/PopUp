@@ -8,10 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    lazy var popup = PopUpView(delegate: self, text: "хуй блять")
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print(popup.labelText.text)
     }
 
 
